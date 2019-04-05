@@ -1,4 +1,5 @@
 server:
+  host: https://stormy-citadel-28405.herokuapp.com/   
   port: 8761
 eureka:
   client:
