@@ -2,6 +2,7 @@ server:
   host: https://stormy-citadel-28405.herokuapp.com/   
   port: 8761
 eureka:
+  hostname: https://stormy-citadel-28405.herokuapp.com
   instance:
     statusPageUrl: https://${eureka.hostname}/info
     healthCheckUrl: https://${eureka.hostname}/health
