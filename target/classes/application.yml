@@ -5,7 +5,7 @@ eureka:
     hostname: stormy-citadel-28405.herokuapp.com
     statusPageUrl: https://${eureka.instance.hostname}/info
     healthCheckUrl: https://${eureka.instance.hostname}/health
-    homePageUrl: https://${eureka.hostname}/
+    homePageUrl: https://${eureka.instance.hostname}/
   client:
     serviceUrl:
       defaultZone: https://${eureka.instance.hostname}:8761/eureka
